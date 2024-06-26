@@ -22,11 +22,11 @@ export const BasicIntro = ({
   image: string;
 }) => {
   return (
-    <div className="flex justify-between items-center p-2">
-      <div>
+    <div className="flex justify-center text-center items-center p-2">
+      <div className='flex flex-col text-center items-center justify-center'>
         <ProfileName name={name} />
         <SectionSubtitle label={label} />
-        <div className="flex gap-1 items-center">
+        <div className="flex gap-1 items-center text-center">
           <ProfileContact text={phone} /> 
           <span>||</span>
           <ProfileContact text={email} />
@@ -41,7 +41,6 @@ export const BasicIntro = ({
           )}
         </div>
       </div>
-      <ProfileImage src={image} height="100px" width="100px" />
     </div>
   );
 };
