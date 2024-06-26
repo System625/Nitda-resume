@@ -117,7 +117,7 @@ const HomeLayout = () => {
         <p className="text-resume-400 mb-8 text-center lg:text-left">
           Hey There🐱‍👤
         </p>
-        <p className="text-resume-200 mb-8 text-center lg:text-left">I don't know what to write so I'll just paste something cool here. One more sentence because lorem ipsum is just unacceptable. Won't ChatGPT the shit out of this.</p>
+        <p className="text-resume-200 mb-8 text-center lg:text-left">I don&apos;t know what to write so I&apos;ll just paste something cool here. One more sentence because lorem ipsum is just unacceptable. Won&apos;t ChatGPT the shit out of this.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* <Person /> */}
         </div>
