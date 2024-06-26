@@ -9,7 +9,7 @@ function FeatureSection() {
           <Image src="/icons/templates.png" alt="style" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          Customise with <strong>templates and themes</strong>!
+          Customise with <strong>templates and themes</strong> — because who has time to be basic?
         </p>
         <span className='absolute -z-10 bg-[rgba(100,100,255,.9)] blur-[70px] w-20 h-20'></span>
       </FeatureCard>
@@ -19,7 +19,7 @@ function FeatureSection() {
           <Image src="/icons/rocket.png" alt="speed" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          Simple <strong>interface</strong> that helps you build quicky!
+          Simple <strong>interface</strong> that even the old folks could use (no offense, Millennials).
         </p>
         <span className='absolute -z-10 bg-[red] blur-[70px] w-20 h-20'></span>
       </FeatureCard>
@@ -29,7 +29,7 @@ function FeatureSection() {
           <Image src="/icons/magic.png" alt="magic" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          Easy <strong>sign up </strong> — go straight to building!
+          Easy <strong>set up</strong> — faster than your morning scroll through Instagram!
         </p>
         <span className='absolute -z-10 bg-[yellow] blur-[70px] w-20 h-20'></span>
       </FeatureCard>
@@ -39,7 +39,7 @@ function FeatureSection() {
           <Image src="/icons/data.png" alt="lock" height="56" width="56" />
         </CardPinnnedIcon>
         <p className="text-xl mr-14">
-          Your <strong>data</strong> never leaves your device
+          Your <strong>data</strong> never leaves your device, not even for a coffee break.
         </p>
         <span className='absolute -z-10 bg-[green] blur-[70px] w-20 h-20'></span>
       </FeatureCard>
@@ -54,7 +54,7 @@ const FeatureCard = ({ children }: { children: React.ReactNode }) => {
         className={`transition ease-in-out delay-100 border-2 border-gray-100 duration-300 bg-white backdrop-blur-2xl text-resume-800
       hover:text-resume-900 hover:scale-105 px-6 py-10 lg:p-12 flex shadow-md cursor-pointer relative rounded-xl`}
       >
-        
+
         {children}
       </div>
     </Link>

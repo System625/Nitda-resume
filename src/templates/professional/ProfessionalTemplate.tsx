@@ -80,7 +80,10 @@ export default function ProfessionalTemplate() {
       <RightSection>
         <SectionValidator value={resumeData.basics.summary}>
           <Section title="Summary">
-            <AboutMe summary={resumeData.basics.summary} profileImage={resumeData.basics.image} />
+            <AboutMe
+              summary={resumeData.basics.summary}
+              // profileImage={resumeData.basics.image}
+            />
           </Section>
         </SectionValidator>
 

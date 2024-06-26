@@ -6,8 +6,12 @@ import Person from './components/Person';
 import NavHome from '../NavHome';
 import { graphicalIcons } from 'src/helpers/icons/index';
 import BgIcon from './components/BgIcon';
+import { FlipWords } from 'components/ui/flip-words';
 
 const HomeLayout = () => {
+
+  const words = [ "Results", "Outcomes", "Impacts", "Solutions"];
+
   const controls = useAnimation();
   const animationEffectsHoverEnter = { scale: 1.05 };
   const animationEffectsHoverLeave = { scale: 1 };
@@ -61,7 +65,7 @@ const HomeLayout = () => {
             </div>
             <div className="col-span-12 sm:col-span-8">
               <h3 className="text-xl md:text-2xl mb-2 text-resume-400 font-[cursive]">EFFORTLESS RESUMES</h3>
-              <h1 className="text-5xl mb-12 text-resume-800 font-[cursive]">Powerful Results</h1>
+              <h1 className="text-5xl mb-12 text-resume-800 font-[cursive]">Powerful <FlipWords words={words} /></h1>
 
               <div className="flex mb-10">
                 <div className="bg-blue-200 w-1 rounded-lg"></div>
@@ -109,11 +113,11 @@ const HomeLayout = () => {
         className="mx-6 md:mx-40 xl:mx-60 my-32"
         style={{ fontFamily: "'Roboto Slab', serif" }}
       >
-        <h2 className="text-resume-800 text-3xl mb-2 text-center lg:text-left">About us</h2>
+        <h2 className="text-resume-800 text-3xl mb-2 text-center lg:text-left">About me</h2>
         <p className="text-resume-400 mb-8 text-center lg:text-left">
-          Developer and Designer — who love to build projects and learn along!
+          Hey There🐱‍👤
         </p>
-        <p className="text-resume-200 mb-8 text-center lg:text-left">Manav Gopal</p>
+        <p className="text-resume-200 mb-8 text-center lg:text-left">I don't know what to write so I'll just paste something cool here. One more sentence because lorem ipsum is just unacceptable. Won't ChatGPT the shit out of this.</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* <Person /> */}
         </div>

@@ -41,7 +41,7 @@ const BuilderLayout = () => {
             <ResumeLayout />
           </div>
         </div>
-        <div className="md:w-[25%] sm:w-[0] print:hidden" id="drawer-container">
+        <div className="lg:w-[25%] sm:w-[0] print:hidden" id="drawer-container">
           {/* <EditorLayout /> */}
           <div
             style={{
@@ -72,7 +72,7 @@ const BuilderLayout = () => {
               variant="permanent"
               sx={{
                 position: "relative",
-                display: { xs: "none", sm: "block" },
+                display: { xs: "none", lg: "block" },
                 "& .MuiDrawer-paper": {
                   boxSizing: "border-box",
                   width: "100%",
@@ -94,7 +94,7 @@ const BuilderLayout = () => {
               }}
               sx={{
                 position: "relative",
-                display: { xs: "block", sm: "none" },
+                display: { xs: "block", sm: "block", md: "block", lg: "none" },
                 boxShadow: "4px 4px 20px 5px gray",
                 "& .MuiDrawer-paper": {
                   boxSizing: "border-box",
@@ -125,7 +125,7 @@ const BuilderLayout = () => {
         <Tooltip title="Open Drawer">
           <div
             onClick={handleDrawerToggle}
-            className="fixed w-14 h-14 z-9999 rounded-full bottom-4 right-4 flex justify-center items-center bg-resume-50 shadow-level-4dp"
+            className="fixed w-14 h-14 z-9999 rounded-full bottom-4 right-4 flex justify-center items-center bg-resume-50 shadow-level-4dp lg:hidden"
           >
             <Image
               src="/icons/rate-review.svg"

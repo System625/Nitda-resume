@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import { NavBarActions, StyledButton } from "./builder/nav-bar/atoms";
 import { BsGithub, BsPeople } from "react-icons/bs";
 // eslint-disable-next-line import/no-unresolved
-import TransitionsModal from "src/modules/login/LoginPopup";
+// import TransitionsModal from "src/modules/login/LoginPopup";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setUserData } from "src/stores/reducers/userDataReducer";
@@ -59,10 +59,10 @@ const NavHome = () => {
               </StyledButton> */}
             </Link>
             <Link href="#about-us" passHref={true}>
-              <StyledButton variant="text">About us</StyledButton>
+              <StyledButton variant="text">About me</StyledButton>
             </Link>
             {/* For Login Popup  */}
-            <TransitionsModal userData={user} />
+            {/* <TransitionsModal userData={user} /> */}
             <a href={"#"} rel="noopener noreferrer">
               <BsPeople className="h-6 w-6" fill="white" />
             </a>

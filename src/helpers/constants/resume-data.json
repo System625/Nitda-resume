@@ -1,21 +1,21 @@
 {
   "basics": {
-    "name": "Harsh Sahu",
+    "name": "Abimbola Joshua",
     "label": "Frontend Developer",
-    "image": "https://res.cloudinary.com/dq6uhnvgl/image/upload/v1705300611/samples/smyr1ifpwismidktqew7.jpg",
-    "email": "harshsahu@email.com",
-    "phone": "+91 9876543210",
-    "url": "www.harshsahu-resume.com",
+    "image": "https://images.pexels.com/photos/17842460/pexels-photo-17842460/free-photo-of-portrait-of-an-african-man.jpeg",
+    "email": "abimbolajoshua@gmailcom",
+    "phone": "+234 805 6798324",
+    "url": "www.abimbim-resume.com",
     "summary": "I am a dedicated web developer with a strong expertise in frontend technologies and exposure to backend development. I design and develop web applications using cutting-edge technologies to ensure high-quality, efficient code delivery.",
     "location": {
       "countryCode": "IN",
       "address": "",
       "postalCode": "",
-      "city": "Bengaluru",
+      "city": "FCT Abuja",
       "region": ""
     },
-    "relExp": "6 years",
-    "totalExp": "8 years",
+    "relExp": "2 years",
+    "totalExp": "4 years",
     "objective": "Eager to expand my skill set through continual learning opportunities and contribute these skills to drive innovative and efficient solutions. Passionate about leveraging technology to enhance user experiences.",
     "profiles": [
       {

@@ -26,10 +26,13 @@ export const BasicIntro = ({
       <div>
         <ProfileName name={name} />
         <SectionSubtitle label={label} />
-        <div className="flex gap-3">
-          <ProfileContact text={phone} />
+        <div className="flex gap-1 items-center">
+          <ProfileContact text={phone} /> 
+          <span>||</span>
           <ProfileContact text={email} />
+          <span>||</span>
           <ProfileContact text={city} />
+          <span>||</span>
           {url && (
             <div className="flex gap-2 ml-2 items-center">
               <BsGlobe />

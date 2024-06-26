@@ -1,11 +1,11 @@
 {
     "basics": {
-      "name": "Jane Doe",
+      "name": "Opemipo",
       "label": "Frontend Developer",
       "image": "https://randomuser.me/api/portraits/men/18.jpg",
-      "email": "janedoe@email.com",
-      "phone": "+91 9876543210",
-      "url": "www.e-resume.vercel.app",
+      "email": "opemipo@email.com",
+      "phone": "+234 807 9345876",
+      "url": "www.opemipo.vercel.app",
       "summary": "I am a web developer having expertise in frontend development and exposure to back- end development. I design and develop web applications using the latest technologies to deliver the product with quality code.",
       "location": {
         "address": "",

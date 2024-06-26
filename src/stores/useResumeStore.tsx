@@ -15,8 +15,14 @@ import { useBasicDetails } from './basic';
 import { useEducations } from './education';
 import { useExperiences } from './experience';
 import { useVoluteeringStore } from './volunteering';
+import { useEffect } from 'react';
 
 export const useResumeStore = () => {
+
+  useEffect(() => {
+    resetResumeStore();
+  }, [ResumeData]);
+
   return {
     ...ResumeData,
     basics: useBasicDetails((state) => state.values),
