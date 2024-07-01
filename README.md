@@ -87,7 +87,7 @@ Contributions are what make the open source community such an amazing place to l
 
 ### Contact
 
-Manav Gopal - [manav-gopal](https://www.linkedin.com/in/manav-gopal/)
+tundexsmith624@gmail.com
 
 ### Acknowledgments
 - Next.js
